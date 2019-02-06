@@ -32,5 +32,28 @@ public class UsuarioSoapServerImpl implements UsuarioSoapServer {
         return usuarioRepository.findAll();
     }
 
+    @Override
+    public Usuario findById(Long id) {
+        return usuarioRepository.findById(id);
+    }
+
+    @Override
+    public String remove(Long id) {
+        usuarioRepository.remove(id);
+        return "Usuário removido com sucesso!";
+    }
+
+    @Override
+    public String merge(Long id, String nome, String email, String telefone) {
+        Usuario usuario = new Usuario();
+        usuario.setId(id);
+        usuario.setNome(nome);
+        usuario.setEmail(email);
+        usuario.setTelefone(telefone);
+
+        usuarioRepository.merge(usuario);
+        return "Usuário atualizado com sucesso!";
+    }
+
 
 }

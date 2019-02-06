@@ -23,5 +23,20 @@ public interface UsuarioSoapServer {
     @WebResult(name = "resultado")
     List<Usuario> findAll();
 
+    @WebMethod(operationName = "findById")
+    @WebResult(name = "resultado")
+    Usuario findById(@WebParam(name = "id") Long id);
+
+    @WebMethod(operationName = "remove")
+    @WebResult(name = "resultado")
+    String remove(@WebParam(name = "id") Long id);
+
+    @WebMethod(operationName = "merge")
+    @WebResult(name = "resultado")
+    String merge(@WebParam(name = "id") Long id,
+                 @WebParam(name = "nome") String nome,
+                 @WebParam(name = "email") String email,
+                 @WebParam(name = "telefone") String telefone);
+
 
 }
