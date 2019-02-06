@@ -11,17 +11,19 @@ import java.rmi.RemoteException;
 public class TesteServicoCorreios {
     public static void main(String[] args) {
 
-        AtendeClienteProxy a = new AtendeClienteProxy();
-        try {
-            EnderecoERP consultaCep = a.consultaCEP("22230001");
+        AtendeClienteProxy consulta = new AtendeClienteProxy();
 
-            System.out.println(consultaCep.getEnd());
-            System.out.println(consultaCep.getBairro());
-            System.out.println(consultaCep.getCidade());
-            System.out.println(consultaCep.getUf());
+        try {
+            EnderecoERP endereco = consulta.consultaCEP("22230001");
+
+            System.out.println(endereco.getEnd());
+            System.out.println(endereco.getBairro());
+            System.out.println(endereco.getCidade());
+            System.out.println(endereco.getUf());
 
         } catch (RemoteException e) {
             e.printStackTrace();
         }
+
     }
 }

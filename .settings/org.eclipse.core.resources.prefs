@@ -47,6 +47,15 @@ encoding//src/main/java/br/com/correios/bsb/sigep/master/bean/cliente/UnidadePos
 encoding//src/main/java/br/com/correios/bsb/sigep/master/bean/cliente/UsuarioInstalacao.java=UTF-8
 encoding//src/main/java/br/com/correios/bsb/sigep/master/bean/cliente/ValePostal.java=UTF-8
 encoding//src/main/java/br/com/correios/bsb/sigep/master/bean/cliente/VigenciaERP.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/Destinos.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/EnderecoMobile.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/Eventos.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/Objeto.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/Rastro.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/RastroLocator.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/Service.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/ServicePortBindingStub.java=UTF-8
+encoding//src/main/java/br/com/correios/webservice/resource/Sroxml.java=UTF-8
 encoding//src/main/resources=UTF-8
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8
