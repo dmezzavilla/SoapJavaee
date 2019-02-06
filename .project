@@ -3,6 +3,7 @@
 	<name>SoapJavaee</name>
 	<comment></comment>
 	<projects>
+		<project>SoapJavaee</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
