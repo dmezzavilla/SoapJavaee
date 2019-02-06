@@ -9,6 +9,9 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import java.util.List;
 
+/**
+ * @author Daniel Mezzavilla
+ */
 @WebService
 @SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface UsuarioSoapServer {

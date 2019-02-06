@@ -8,6 +8,9 @@ import javax.inject.Inject;
 import javax.jws.WebService;
 import java.util.List;
 
+/**
+ * @author Daniel Mezzavilla
+ */
 @WebService(name = "UsuarioServer")
 public class UsuarioSoapServerImpl implements UsuarioSoapServer {
 

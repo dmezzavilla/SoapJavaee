@@ -9,6 +9,9 @@ import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 import java.util.List;
 
+/**
+ * @author Daniel Mezzavilla
+ */
 public class UsuarioRepositoryImpl implements UsuarioRepository {
 
     @PersistenceContext

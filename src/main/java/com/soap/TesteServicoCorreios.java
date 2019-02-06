@@ -5,6 +5,9 @@ import br.com.correios.bsb.sigep.master.bean.cliente.EnderecoERP;
 
 import java.rmi.RemoteException;
 
+/**
+ * @author Daniel Mezzavilla
+ */
 public class TesteServicoCorreios {
     public static void main(String[] args) {
 

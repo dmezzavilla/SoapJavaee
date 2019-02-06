@@ -4,6 +4,9 @@ import com.soap.entity.Usuario;
 
 import java.util.List;
 
+/**
+ * @author Daniel Mezzavilla
+ */
 public interface UsuarioRepository {
 
     void persist(Usuario usuario);
